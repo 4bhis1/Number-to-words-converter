@@ -613,3 +613,121 @@ jTextField1.setText("");
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
+
+
+/*
+    #include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int num,n1,n2,n3;
+    cout<<"Enter the three digit number : ";
+    cin>>num;
+    n3=num%10;
+    num=num/10;
+    n2=num%10;
+    num=num/10;
+    n1=num%10;
+    switch(n1)
+    {
+        case 0 : cout<<"";
+                 break;
+        case 1 : cout<<"One hundred ";
+                 break;
+        case 2 : cout<<"Two hundred ";
+                 break;
+        case 3 : cout<<"Three hundred ";
+                 break;
+        case 4 : cout<<"Four hundred ";
+                 break;
+        case 5 : cout<<"Five hundred ";
+                 break;
+        case 6 : cout<<"Six hundred ";
+                 break;
+        case 7 : cout<<"Seven hundred ";
+                 break;
+        case 8 : cout<<"Eight hundred ";
+                 break;
+        default : cout<<"Nine hundred ";
+                  break;
+    }
+    if(n2==1)
+    {
+    switch(n3)
+    {
+        case 0 : cout<<"Ten";
+                 break;
+        case 1 : cout<<"Eleven";
+                 break;
+        case 2 : cout<<"Twelve";
+                 break;
+        case 3 : cout<<"Thirteen";
+                 break;
+        case 4 : cout<<"Fourteen";
+                 break;
+        case 5 : cout<<"Fifteen";
+                 break;
+        case 6 : cout<<"Sixteen";
+                 break;
+        case 7 : cout<<"Seventeen";
+                 break;
+        case 8 : cout<<"Eighteen";
+                 break;
+        default : cout<<"Nineteen";
+                  break;
+    }
+    }
+    else
+    {
+        switch(n2)
+        {
+        case 0 : cout<<"";
+                 break;
+        case 2 : cout<<"Twenty ";
+                 break;
+        case 3 : cout<<"Thirty ";
+                 break;
+        case 4 : cout<<"Forty ";
+                 break;
+        case 5 : cout<<"Fifty ";
+                 break;
+        case 6 : cout<<"Sixty ";
+                 break;
+        case 7 : cout<<"Seventy ";
+                 break;
+        case 8 : cout<<"Eighty ";
+                 break;
+        default : cout<<"Ninety ";
+                  break;
+        }
+    switch(n3)
+    {
+        case 0 : cout<<"";
+                 break;
+        case 1 : cout<<"One";
+                 break;
+        case 2 : cout<<"Two";
+                 break;
+        case 3 : cout<<"Three";
+                 break;
+        case 4 : cout<<"Four";
+                 break;
+        case 5 : cout<<"Five";
+                 break;
+        case 6 : cout<<"Six";
+                 break;
+        case 7 : cout<<"Seven";
+                 break;
+        case 8 : cout<<"Eight";
+                 break;
+        default : cout<<"Nine";
+                  break;
+    }
+    }
+    return 0;
+}
+
+
+*/
